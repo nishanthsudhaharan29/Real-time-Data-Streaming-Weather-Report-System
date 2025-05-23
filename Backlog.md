@@ -1,6 +1,4 @@
-## Project Backlog – Real-Time Weather Streaming with Azure
-
-      
+## Project Backlog: Real-Time Weather Streaming with Azure
 
 
 | ID  | Epic                          | User Story                                                                 | Estimate Hours | Status |
