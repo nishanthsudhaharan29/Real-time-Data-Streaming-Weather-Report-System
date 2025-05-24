@@ -1,3 +1,4 @@
 ## Real-Time Weather Streaming with Azure
-![Alt text](Architecture-Diagram.png)
+![Architecture Diagram](Architecture%20Diagram.png)
+
 
