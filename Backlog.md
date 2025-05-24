@@ -1,12 +1,11 @@
 ## Project Backlog: Real-Time Weather Streaming with Azure
 
 
-| ID  | Epic                          | User Story                                                                 | Estimate Hours | Status |
-|-----|-------------------------------|----------------------------------------------------------------------------|----------------|--------|
-| 1   | Azure Environment Setup       | Create Azure Resource Group for centralized resource management            | 1              |        |
-|     |                               | Set up Azure Key Vault for secure storage of API keys                      | 1              |        |
-|     |                               | Enable Azure Cost Management for budgeting and tracking                    | 0.5            |        |
-|     |                               | Configure access and role-based permissions                                | 1              |        |
+| ID  | Epic                          | User Story                                                                 | Estimate Hours | Status          |
+|-----|-------------------------------|----------------------------------------------------------------------------|----------------|-----------------|
+| 1   | Azure Environment Setup       | Create Azure Resource Group for centralized resource management            | 1              |Completed        |
+|     |                               | Set up Azure Key Vault for secure storage of API keys                      | 0.5            |Completed        |
+|     |                               | Configure access and role-based permissions                                | 0.5            |Completed        |
 | 2   | Data Source Integration       | Register and test connection to Live Weather API                           | 1              |        |
 |     |                               | Set up scheduled Azure Function to call API and ingest weather data        | 2              |        |
 | 3   | Data Ingestion                | Process raw weather data using Azure Databricks                            | 3              |        |
