@@ -6,9 +6,10 @@
 | 1   | Azure Environment Setup       | Create Azure Resource Group for centralized resource management            | 1              |Completed        |
 |     |                               | Set up Azure Key Vault for secure storage of API keys                      | 0.5            |Completed        |
 |     |                               | Configure access and role-based permissions                                | 0.5            |Completed        |
-| 2   | Data Source Integration       | Register and test connection to Live Weather API                           | 1              |        |
-|     |                               | Set up scheduled Azure Function to call API and ingest weather data        | 2              |        |
-| 3   | Data Ingestion                | Process raw weather data using Azure Databricks                            | 3              |        |
+| 2   | Data Ingestion with Databricks| Register and test connection to Live Weather API                           | 1              |Completed        |
+|     |                               | Send a test data to Event Hub                                              | 1              |Completed        |
+|     |                               | Set up structured streaming to call API and ingest weather data            | 2              |Completed        |
+| 3   | Data Ingestion with Dunction Apps | Process raw weather data using Azure Databricks                            | 3              |        |
 |     |                               | Output structured data to Azure Event Hub                                  | 1              |        |
 | 4   | Real-Time Streaming           | Connect Event Hub to Microsoft Fabric Event Stream                         | 1              |        |
 |     |                               | Parse and analyze incoming data streams                                    | 2              |        |
