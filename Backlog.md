@@ -17,8 +17,8 @@
 | 5   | Real-Time Streaming           | Create a Event House KQL database                                          | 0.5            |Completed        |
 |     |                               | Use Event Stream to continuously load incoming data into KQL database      | 1              |Completed        |
 |     |                               | Perform real-time analytics on incoming weather data                       | 1              |Completed        |
-| 6   | Reporting                     | Create Power BI dashboard to visualize real-time weather insights          | 3              |        |
-|     |                               | Connect Power BI to Kusto DB                                               | 1              |        |
+| 6   | Reporting                     | Connect Power BI to Kusto DB                                               | 0.5            |Completed        |
+|     |                               | Create Power BI dashboard to visualize real-time weather insights          | 4              |Completed        |
 | 7   | Alerting & Automation         | Configure Microsoft Fabric Data Activator for extreme weather detection    | 2              |        |
 |     |                               | Trigger real-time alerts via email (Outlook) for critical conditions       | 1              |        |
 | 8   | Monitoring & Observability    | Set up health checks and pipeline metrics visualization                    | 2              |        |
