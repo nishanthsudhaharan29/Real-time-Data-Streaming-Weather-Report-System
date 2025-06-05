@@ -20,7 +20,6 @@
 | 6   | Reporting                     | Connect Power BI to Kusto DB                                               | 0.5            |Completed        |
 |     |                               | Create Power BI dashboard to visualize real-time weather insights          | 4              |Completed        |
 |     |                               |Set up Auto/Scheduled Refresh                                               | 0.5            |Completed        |
-| 7   | Alerting & Automation         | Configure Microsoft Fabric Data Activator for extreme weather detection    | 2              |        |
-|     |                               | Trigger real-time alerts via email (Outlook) for critical conditions       | 1              |        |
-| 8   | Monitoring & Observability    | Set up health checks and pipeline metrics visualization                    | 2              |        |
-|     |                               | Configure alert rules for pipeline failure or latency                      | 1              |        |
+| 7   | Alerting & Automation         | Configure Microsoft Fabric Data Activator for extreme weather detection    | 2              |Completed        |
+|     |                               | Trigger real-time alerts via email (Outlook) for critical conditions       | 1              |Completed        |
+|     |                               | Test if an alert email is received by sending a test event                 | 0.4            |Completed        |
