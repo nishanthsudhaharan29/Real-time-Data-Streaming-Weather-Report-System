@@ -1,4 +1,4 @@
-# Real-Time Weather Streaming with Azure
+# Real-Time Data Streaming with Azure: Live Weather Streaming
 
 ## Project Description
    
