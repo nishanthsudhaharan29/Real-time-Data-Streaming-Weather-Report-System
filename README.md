@@ -98,7 +98,7 @@ This solution provides significant value across various domains:
 - Built a real-time dashboard to visualize metrics such as temperature, humidity, and wind speed.
 - Enabled auto-refresh and scheduled refresh for consistent updates.
   
-![Alt text](./Images/1.png)
+![Alt text](./Images/15.png)
 
 
 ### 5. Alerting and Automation
