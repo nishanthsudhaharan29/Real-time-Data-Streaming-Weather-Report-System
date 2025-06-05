@@ -41,9 +41,8 @@ This solution provides significant value across various domains:
 | Streaming                 | Azure Event Hub                           |
 | Processing & Storage      | Microsoft Fabric Event Stream, Kusto DB   |
 | Analytics & Visualization | Power BI                                  |
-| Alerting & Automation     | Microsoft Fabric Data Activator, Outlook  |
+| Alerting & Automation     | Microsoft Fabric Data Activator           |
 | Security                  | Azure Key Vault                           |
-| Cost Monitoring           | Azure Cost Management                     |
 
 ## Step-by-Step Implementation
 
