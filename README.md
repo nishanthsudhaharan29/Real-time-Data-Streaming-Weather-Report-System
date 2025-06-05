@@ -9,7 +9,7 @@ This project demonstrates the implementation of a real-time weather monitoring a
 
 ## Overview
 
-The system collects real-time weather data from a public API and ingests it into Azure using two ingestion pipelines: Azure Databricks and Azure Functions. The data is streamed through Event Hub, processed using Microsoft Fabric’s real-time intelligence components, and stored in a Kusto DB instance. Interactive dashboards are built with Power BI for visualization, while Data Activator is configured to send automated email alerts for extreme weather events.
+The system collects real-time weather data from a public API and ingests it into Azure using two ingestion pipelines: Azure Databricks and Azure Functions. The ywo methods are compared for cost-efficiency and performance and the best method is determined. The data is streamed through Event Hub, processed using Microsoft Fabric’s real-time intelligence components, and stored in a Kusto DB instance. Microsoft Fabric's Event Stream is used to create a continuous streaming and storage pipeline with Event Hub as the source and Kusto DB present in an Event House as the target storage location. An interactive dashboard is built with Power BI for visualization, while Data Activator is configured to send automated email alerts for extreme weather events.
 
 ## Real-World Value
 
