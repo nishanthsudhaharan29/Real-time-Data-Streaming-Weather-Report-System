@@ -54,7 +54,7 @@ This solution provides significant value across various domains:
 - Created a dedicated Azure Resource Group for centralized resource management.
 - Configured Azure Key Vault to store API keys securely.
 - Set up access control and role-based permissions across all services.
-- 
+  
   ![Alt text](./Images/3.png)
 
    
@@ -64,7 +64,7 @@ This solution provides significant value across various domains:
 **Using Azure Databricks**
 - Connected to the Live Weather API.
 - Built a structured streaming job to push events to Event Hub every 30 seconds.
-- 
+  
 ![Alt text](./Images/4.png)
 ![Alt text](./Images/5.png)
 
@@ -72,12 +72,12 @@ This solution provides significant value across various domains:
 **Using Azure Functions**
 - Created a timer-triggered Azure Function using Visual Studio Code.
 - Deployed the Function App to Azure and validated its behavior with Event Hub integration.
-- 
+  
 ![Alt text](./Images/6.png)
 
 
 - Check if events are received in Event Hub
-- 
+  
 ![Alt text](./Images/7.png)
 
 ### 3. Real-Time Streaming   
@@ -112,7 +112,7 @@ This solution provides significant value across various domains:
   ![Alt text](./Images/14.png)
   
   
-\#### KQL Query to gather new alerts
+#### KQL Query to gather new alerts
 tbl_weather   
 | where alerts != '[]'   
 | extend AlertValue = tostring(alerts)    
