@@ -8,14 +8,6 @@ This project demonstrates the implementation of a real-time weather monitoring a
 
 The system collects real-time weather data from a public API and ingests it into Azure using two ingestion pipelines: Azure Databricks and Azure Functions. The ywo methods are compared for cost-efficiency and performance and the best method is determined. The data is streamed through Event Hub, processed using Microsoft Fabric’s real-time intelligence components, and stored in a Kusto DB instance. Microsoft Fabric's Event Stream is used to create a continuous streaming and storage pipeline with Event Hub as the source and Kusto DB present in an Event House as the target storage location. An interactive dashboard is built with Power BI for visualization, while Data Activator is configured to send automated email alerts for extreme weather events.
 
-## Real-World Value
-
-This solution provides significant value across various domains:
-
-- **Personal Safety**: Users receive immediate email alerts during hazardous weather conditions such as storms or extreme temperatures, enabling timely response.
-- **Business Operations**: Industries like logistics and aviation can use this system to monitor real-time conditions and proactively manage delays or disruptions.
-- **Government & Emergency Services**: Local agencies can monitor live weather feeds and automate alerts for disaster response and planning.
-
 ## Solution Architecture
 
 The architecture includes the following key components:
@@ -30,6 +22,15 @@ The architecture includes the following key components:
 8. **Data Activator** – Detects predefined weather thresholds and triggers email alerts.
 9. **Azure Key Vault** – Manages and secures API keys and other secrets.
 10. **Cost Management** – Tracks resource usage and manages cost efficiency.
+
+## Real-World Value
+
+This solution provides significant value across various domains:
+
+- **Personal Safety**: Users receive immediate email alerts during hazardous weather conditions such as storms or extreme temperatures, enabling timely response.
+- **Business Operations**: Industries like logistics and aviation can use this system to monitor real-time conditions and proactively manage delays or disruptions.
+- **Government & Emergency Services**: Local agencies can monitor live weather feeds and automate alerts for disaster response and planning.
+
 
 ## Technology Stack
 
