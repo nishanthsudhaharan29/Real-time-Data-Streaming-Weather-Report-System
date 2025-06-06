@@ -48,6 +48,9 @@ This solution provides significant value across various domains:
 | Alerting & Automation     | Microsoft Fabric Data Activator           |
 | Security                  | Azure Key Vault                           |
 
+## Skills I learnt from this project
+Through this project, I gained hands-on experience in building an end-to-end real-time data streaming solution using Microsoft Azure and Microsoft Fabric's Real-Time Intelligence. I integrated various Azure services including Databricks, Functions, Event Hub, Microsoft Fabric, and Power BI to create a workflow for data ingestion, real-time processing, analytics, and alerting. I enhanced my understanding of structured streaming with Databricks and using timer-triggered Azure Functions, while also working with real-time data routing and transformation using Event Stream and Kusto DB. I developed proficiency in writing KQL queries and configuring Data Activator for automated alerts. This project also improved my ability to compare performance and cost-efficiency between ingestion methods and highlighted the importance of optimized resource usage in cloud-based solutions.   
+
 ## Step-by-Step Implementation
 
 ### 1. Azure Environment Setup
